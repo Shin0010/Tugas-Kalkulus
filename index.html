@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculus Calculator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <h2>Calculus Calculator</h2>
+        <label for="a">Enter value for a:</label>
+        <input type="number" id="a" name="a"><br><br>
+        <label for="b">Enter value for b:</label>
+        <input type="number" id="b" name="b"><br><br>
+        <button onclick="solveEquation()">Solve Equation</button><br><br>
+        <p id="steps"></p>
+    </div>
+    <div class="social-icons">
+        <div class="hexagon-wrapper" onclick="goToLink('https://www.facebook.com')">
+            <div class="hexagon">
+                <i class="fab fa-facebook"></i>
+            </div>
+        </div>
+        <div class="hexagon-wrapper" onclick="goToLink('https://www.twitter.com')">
+            <div class="hexagon">
+                <i class="fab fa-twitter"></i>
+            </div>
+        </div>
+        <div class="hexagon-wrapper" onclick="goToLink('https://www.instagram.com')">
+            <div class="hexagon">
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <br>
+        <p>&copy; 2024 || Arkan Mauladi A (411232046)</p>
+        <br>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
